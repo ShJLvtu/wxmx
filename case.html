@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN" html lang="en" oncontextmenu="return false" onselectstart="return false">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>妙想传媒 - 案例详情</title>
+	<link href="./css/site.css" rel="stylesheet">
+	<style type="text/css">
+		*{margin:0; padding:0;}
+		.zsyimg{max-width: 100%; height: auto; width: auto;}
+		.content {float:left;height:auto; width:100%; margin:0 auto 3% auto;}
+		.content div {float:left;width:auto;text-align:center;}
+		.content img {width:auto; height:auto;margin-left:50px}
+		.content p {margin-top:15px; margin-bottom:35px;text-align:center;font-size:20px; font-weight: bold;font-style: italic;text-decoration:underline;letter-spacing:2px;font-family: "宋体","仿宋",sans-serif;color:##000000; line-height:10px}
+	</style>
+</head>
+<body>
+
+<div style="width:100% height:auto;">
+	<a href="mxcm.html"><img class="zsyimg" src="img/1.jpg" /></a>
+	<div class="content">
+		<div><img src="./img/anli01.jpg" alt="" title="" /><p>室内蹦床乐园开业盛典</p></div>
+		<div><img src="./img/anli02.jpg" alt="" title="" /><p>青海首站-极地门户 商品市场</p></div>
+		<div><img src="./img/anli03.jpg" alt="" title="" /><p>新时代-江苏教育大会</p></div>
+		<div><img src="./img/anli04.jpg" alt="" title="" /><p>三D签到-新合作</p></div>
+		<div><img src="./img/anli05.jpg" alt="" title="" /><p>微信营销-抽奖-游戏-现场</p></div>
+		<div><img src="./img/anli06.jpg" alt="" title="" /><p>徐霞客党员大会-无锡太湖学院毕业晚会</p></div>
+		<div><img src="./img/anli07.jpg" alt="" title="" /><p>南京中医药大学惠山区阳山镇签约仪式-电梯安全</p></div>
+		
+		<div style:"clear:both" ></div>
+	</div>
+
+	<div id="ACTORS-LIST-DIV">
+		<div id="ACTORS-LEFT-DIV">
+				<div class="actor-rows"><a href=""><img src="./img/21.jpg" alt=""></a></div>
+			<div class="actor-rows">
+					<div class="actor-row-half"><a href=""><img src="./img/22.jpg" alt=""></a></div>
+					<div class="actor-row-half"><a href=""><img src="./img/23.jpg" alt=""></a></div>
+			</div>
+		</div>
+		<div id="ACTORS-RIGHT-DIV">
+			<div class="actor-cols">
+					<div class="actor-col-half"><a href=""><img src="./img/24.jpg" alt=""></a></div>
+					<div class="actor-col-half"><a href=""><img src="./img/25.jpg" alt=""></a></div>
+			</div>
+					<div class="actor-cols"><a href=""><img src="./img/26.jpg" alt=""></a></div>
+		</div>
+</div>
+
+</div>
+<script type="text/javascript">jQuery(function ($) {
+    $('ul.nav').hoverifyBootnav();
+    $('#NAV-SEARCH-BUTTON').on(
+        'click',
+        function(){
+            $('#MODAL_SEARCH').modal('show');
+        }
+    );
+    $('#NAV-SEARCH-SUBMIT').on(
+        'click',
+        function(){
+            var search_keyword = $('#NAV-SEARCH-KEYWORD').val();
+            if(search_keyword != ''){
+                $('#NAV-SEARCH-KEYWORD').val('');
+                window.location.href = '/site/search?keyword='+search_keyword;
+            }else{
+                $('#MODAL_SEARCH').modal('hide');
+            }
+        }
+    );
+
+            jQuery(document).ready(function($) {
+                $('#HOMEPAGE-SLIDES').sliderPro({"width":"100%","autoHeight":true,"arrows":true,"buttons":false,"slideDistance":0,"touchSwipe":false});
+            });
+        
+    $("#DRAMAS-LIST-DIV").sliphover();
+jQuery('#MODAL_SEARCH').modal({"show":false,"keyboard":false});
+});</script>	
+<a data-ver="2.4.32" data-src="60039" data-uid="extTEdOpNWryqMPLxHTZITB6HNOlgA0vWkwe" data-type="4" href="javascript:" id="yht-info-explugin" style="display: none;"></a></body></html>

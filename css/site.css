@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+container
+* {
+  font-family:  Microsoft YaHei;
+  font-weight: normal;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+  outline: none;
+}
+
+#DRAMAS-DIV .drama-rows img {
+  position: relative;
+  z-index: 2;
+}
+
+#DRAMAS-DIV .drama-rows .circle-shadow {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  top: -100px;
+  width: 268px;
+  height: 100px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  box-shadow: 0px 10px 50px #777777;
+}
+
+#DRAMAS-LIST-DIV #DRAMAS-LEFT-DIV,
+#DRAMAS-LIST-DIV #DRAMAS-MIDDLE-DIV {
+	float: left;
+}
+
+#DRAMAS-LIST-DIV #DRAMAS-LEFT-DIV {
+  text-align: left;
+  padding-top: 70px;
+}
+
+#DRAMAS-LIST-DIV #DRAMAS-RIGHT-DIV {
+  float: right;
+  text-align: right;
+}
+
+#DRAMAS-LIST-DIV #DRAMAS-LEFT-DIV,
+#DRAMAS-LIST-DIV #DRAMAS-RIGHT-DIV {
+	width: 33.33%;
+}
+
+#DRAMAS-LIST-DIV #DRAMAS-MIDDLE-DIV {
+  width: 33.34%;
+  padding-top: 300px;
+  text-align: center;
+}
+
+#ACTORS-LIST-DIV a,
+#ACTORS-LIST-DIV a img {
+	width: 100%;
+  max-width: 100%;
+}
+
+#ACTORS-LIST-DIV a img {
+  transition: all 0.6s;
+}
+
+#ACTORS-LIST-DIV a img:hover {
+	-webkit-transform: scale(1.01);
+	-moz-transform: scale(1.01);
+  transform: scale(1.01); 
+}
+
+#ACTORS-LIST-DIV #ACTORS-LEFT-DIV,
+#ACTORS-LIST-DIV #ACTORS-RIGHT-DIV {
+	width: 50%;
+	overflow: hidden;
+}
+
+#ACTORS-LIST-DIV #ACTORS-LEFT-DIV {
+	float: left;
+}
+
+#ACTORS-LIST-DIV #ACTORS-LEFT-DIV .actor-rows {
+	width: 100%;
+	overflow: hidden;
+}
+
+#ACTORS-LIST-DIV #ACTORS-LEFT-DIV .actor-rows .actor-row-half {	float: left;width: 50%;	overflow: hidden;}
+
+#ACTORS-LIST-DIV #ACTORS-RIGHT-DIV {float: right;}
+
+#ACTORS-LIST-DIV #ACTORS-RIGHT-DIV .actor-cols { float: left; width: 50%; overflow: hidden;}
+
+#ACTORS-LIST-DIV #ACTORS-RIGHT-DIV .actor-col-half { overflow: hidden;}
